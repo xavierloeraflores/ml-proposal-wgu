@@ -24,3 +24,18 @@ C951 Introduction to Artificial Intelligence
 
 ### Benefits of Proposed Machine Learning Solution
 
+
+## Machine Learning Project Design
+
+### Scope
+
+### Goals, Objectives Deliverables
+
+### Standard Methodology
+
+### Project Timeline
+
+### Resources and Costs
+
+### Success Criteria
+
