@@ -5,3 +5,22 @@ xloeraf@wgu.edu
 C951 Introduction to Artificial Intelligence
 
 # Machine Learning Project Proposal
+
+## Project Overview
+
+### Organizational Need
+
+### Context and Background
+
+### Outside Works
+#### Work 1
+
+#### Work 2
+
+#### Work 3
+
+
+### Machine Learning Solution
+
+### Benefits of Proposed Machine Learning Solution
+
