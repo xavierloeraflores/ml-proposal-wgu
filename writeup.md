@@ -39,3 +39,18 @@ C951 Introduction to Artificial Intelligence
 
 ### Success Criteria
 
+
+## Machine Learning Solution Design
+
+### Proposed Project Hypothesis
+
+### Machine Learning Algorithms
+#### Algorithm Advantage
+
+#### Algorithm Disadvantage
+
+
+### Tools and Environments
+
+### Performance Measuring Process
+
