@@ -47,10 +47,32 @@ C951 Introduction to Artificial Intelligence
 ### Machine Learning Algorithms
 #### Algorithm Advantage
 
-#### Algorithm Disadvantage
-
+#### Algorithm Limitation
 
 ### Tools and Environments
 
 ### Performance Measuring Process
+
+## Description of Data Sets
+
+### Data Sources
+
+### Data Collection Method
+
+#### Method Advantage
+
+#### Method Limitation
+
+### Data Preparation
+
+#### Data Set Formatting
+
+#### Missing Data
+
+#### Dirty Data
+
+#### Data Anomaly Mitigation
+
+### Behaviors for Handling & Communicating Data
+
 
