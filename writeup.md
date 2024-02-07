@@ -7,6 +7,7 @@ C951 Introduction to Artificial Intelligence
 # Machine Learning Project Proposal
 
 ## Project Overview
+The following project proposal will demonstrate the need for a machine learning solution that implements image recognition to address an organizational need. The proposal will include a project overview, project design, machine learning solution design, and a description of the data sets that will be used to train the machine learning model.
 
 ### Organizational Need
 
