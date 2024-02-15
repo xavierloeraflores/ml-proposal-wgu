@@ -60,6 +60,7 @@ The company has seen a significant increase in the number of images with explici
 ## Description of Data Sets
 
 ### Data Sources
+Data will be sourced from all the public images uploaded to the company's social media platform by users. The company terms of service allow for the use of images uploaded to the platform for improving features on the platform. These images can be found on the company's database and can be accessed through the company's API or either through a direct connection to the database.
 
 ### Data Collection Method
 
