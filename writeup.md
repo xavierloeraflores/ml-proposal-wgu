@@ -66,6 +66,7 @@ Data will be sourced from all the public images uploaded to the company's social
 Once we have access to the collection of image data via either the company's API or direct connection to the database, we will collect the images to store them for use in training the machine learning model. For the most part, the data collected will already be categorized as explicit or not explicit since the company's moderation team had already flagged the images when the throughput of images was lower. The company only recently faced the issue of an increase in un-flagged explicit images so most of the images on the platform are already categorized.  
 
 #### Method Advantage
+By utilizing the database of images from the company's platform, we ensure that the data that will train the machine learning model is representative of the data that the model will be used on. The model will be trained to accept user generated content by being trained on user generated content. This will allow the model to tackle edge cases that can be found in user generated content since the model will be trained on years worth of data from the company's platform.
 
 #### Method Limitation
 
