@@ -72,14 +72,7 @@ By utilizing the database of images from the company's platform, we ensure that 
 The limitation with this method is that the model will be trained on data that has already been flagged by the company as explicit. User generated content can be unpredictable and new types of explicit content can be uploaded that the platform will not recognize such as AI generated images, deep fakes, and hand drawn explicit images. The model will be able to detect previous trends in explicit content but may not be able to detect new types or even subtle instances of explicit content. 
 
 ### Data Preparation
-
-#### Data Set Formatting
-
-#### Missing Data
-
-#### Dirty Data
-
-#### Data Anomaly Mitigation
+The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The data will be cleaned to removed any irrelevant, spam, duplicate, or mis-categorized images. All the images will be formatted to the standard canvas and file size that images are stored and views on the platform. Using these goals in mind, checks and validation will be ran on the data to mitigate data anomalies and ensure that the data is consistent and ready for training. 
 
 ### Behaviors for Handling & Communicating Data
 
