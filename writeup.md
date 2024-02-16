@@ -43,6 +43,24 @@ The company has seen a significant increase in the number of images with explici
 
 ### Resources and Costs
 
+Using estimates from [Microsoft Azure Visions Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/) as well as the daily estimates for the number of images uploaded to [Instagram](https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/), we can estimate the cost of the machine learning solution.
+
+Assuming:
+
+- 100,000,000 Daily Uploaded Images
+- $0.40 Per 1000 Images @ at least 1,000,000 transactions per day
+
+| Resource                        | Cost                 |
+| ------------------------------- | -------------------- |
+| Engineering Labor               | $100K-150K           |
+| Database Storage                | $10,000              |
+| Data Processing                 | $10,000              |
+| Machine Learning Model Training | $10,000              |
+| Upfront Cost Total              | ~$130K-180K          |
+| Machine Learning Cloud Server   | ~$35K-45K daily      |
+| Maintenance Engineering Labor   | $10K-15K monthly     |
+| On-Going Total                  | ~$1M - 1.35M monthly |
+
 ### Success Criteria
 
 ## Machine Learning Solution Design
@@ -92,3 +110,7 @@ It is important that when handling the data that we are transparent with the com
 (2) .
 
 (3) .
+
+(4) Microsoft. "Microsoft Azure Pricing" Azure.Microsoft.com https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 16,2024.
+
+(5) Bernard Marr & Co. "How Much Data Do We Create Every Day? The Mind-Blowing Stats Everyone Should Read" BernardMarr.com https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ Accessed Feb 16,2024.
