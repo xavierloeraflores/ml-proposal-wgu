@@ -84,3 +84,11 @@ The data will need to be prepared for the training of the machine learning model
 ### Behaviors for Handling & Communicating Data
 
 It is important that when handling the data that we are transparent with the company and the users about the use of their data. This needs to be done with respect for the users because some users may not want their images to be used for training machine learning models. Once the model is implemented, the images should be user anonymized and the model should not store any images that are being processed in the future. This is because the model will be used on images that are uploaded to the platform which some users may eventually want to delete. We may eventually revisit and retrain the model with new data later on to improve the model's accuracy and performance.
+
+## References
+
+(1) .
+
+(2) .
+
+(3) .
