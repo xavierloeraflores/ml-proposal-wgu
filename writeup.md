@@ -20,6 +20,7 @@ A social media company needs a machine learning solution to automatically detect
 The company has seen a significant increase in the number of images with explicit content being uploaded to their platform. While the platform allows users to manually mark their posts as NSFW or explicit, many users are not doing so, and the company receives numerous complaints from users who do not wish to see explicit content. This will allow the moderation team to focus on images with explicit content and remove them from the platform. It would also allow the company to blur or hide explicit images from users who do not wish to see them.
 
 ### Outside Works
+The following works were used to help guide the proposal and provide context to the project.
 
 #### Work 1
 
