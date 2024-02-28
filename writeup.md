@@ -41,6 +41,18 @@ The following works were used to help guide the proposal and provide context to 
 ### Standard Methodology
 
 ### Project Timeline
+A rough estimate of the project timeline is as follows:
+
+Timeline Overview:
+|Sprint| Dates | Task |
+|------|-------|------|
+| 0    | 1-2 weeks | Project Planning |
+| 1    | 1-2 weeks | Data Collection |
+| 2    | 1-2 weeks | Data Preparation |
+| 3    | 1-2 weeks | Model Training |
+| 4    | 1-2 weeks | Integration & Testing |
+| 5    | 1-2 weeks | Evaluation |
+| 6    | 1-2 weeks | Model Deployment |
 
 ### Resources and Costs
 
