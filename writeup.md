@@ -43,16 +43,60 @@ The following works were used to help guide the proposal and provide context to 
 ### Project Timeline
 A rough estimate of the project timeline is as follows:
 
-Timeline Overview:
+Sprint Timeline Overview:
 |Sprint| Dates | Task |
 |------|-------|------|
-| 0    | 1-2 weeks | Project Planning |
-| 1    | 1-2 weeks | Data Collection |
-| 2    | 1-2 weeks | Data Preparation |
-| 3    | 1-2 weeks | Model Training |
-| 4    | 1-2 weeks | Integration & Testing |
-| 5    | 1-2 weeks | Evaluation |
-| 6    | 1-2 weeks | Model Deployment |
+| 1    | 04/01/2024 - 04/08/2024 | Project Planning |
+| 2    | 04/08/2024 - 04/22/2024 | Data Collection |
+| 3    | 04/22/2024 - 05/06/2024 | Data Preparation |
+| 4    | 05/06/2024 - 05/27/2024 | Model Training |
+| 5    | 05/27/2024 - 06/10/2024 | Integration & Testing |
+| 6    | 06/10/2024 - 06/17/2024 | Evaluation |
+| 7    | 06/17/2024 - 07/01/2024 | Model Deployment |
+
+Sprint 1: Project Planning ( 1 Week )
+- Define the project scope and goals
+- Define the project timeline
+- Define the project budget
+- Define the project team
+
+Sprint 2: Data Collection ( 2 Weeks )
+- Identify the data sources
+- Write the data collection method
+- Collect the data
+- Store the data
+
+Sprint 3: Data Preparation ( 2 Weeks )
+- Clean the data
+- Format the data
+- Mitigate data anomalies
+- Validate the data
+
+Sprint 4: Model Training ( 3 Weeks )
+- Set up the machine learning environment
+- Train the machine learning model
+- Debug the model
+- Optimize the model
+- Validate the model
+
+Sprint 5: Integration & Testing ( 2 Weeks )
+- Integrate the model with the platform
+- Write tests for the model
+- Test the model
+- End-to-end testing
+- Create a maintenance plan
+
+Sprint 6: Evaluation ( 1 Week )
+- Deploy the model to a small subset of users
+- Monitor the model
+- Collect feedback
+- Evaluate the model
+
+Sprint 7: Model Deployment ( 2 Weeks )
+- Deploy the model to the entire platform
+- Monitor the model
+- Collect feedback
+- Document the model
 
 ### Resources and Costs
 
