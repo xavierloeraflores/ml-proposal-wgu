@@ -120,6 +120,13 @@ Assuming:
 
 ### Success Criteria
 
+| Objective | Success Criteria |
+|-----------|------------------|
+| Model Accuracy | The machine learning solution should accurately categorize images as NSFW or SFW with at least 95% accuracy. |
+| Model Performance | The machine learning solution should be able to process at least 100,000,000 images per day. |
+| Model Cost | The machine learning solution should cost less than $1.5M per month to operate. |
+| User Experience | The machine learning solution should not negatively impact the user experience for uploading images within a 5% margin of error feedback score.  |
+
 ## Machine Learning Solution Design
 
 ### Proposed Project Hypothesis
