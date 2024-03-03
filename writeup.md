@@ -53,6 +53,14 @@ The scope does not include the following:
 - Detecting explicit content in text on the images
 ### Goals, Objectives Deliverables
 
+The goal of this project is to develop a machine learning solution that can detect explicit content in images uploaded the company's platform. It should be able to achieve the following objectives:
+
+1. Accurately categorize images as NSFW or SFW
+2. Process at least 100,000,000 images per day
+3. Cost less than $1.5M per month to operate
+4. Not negatively impact the user experience for uploading images
+
+
 ### Standard Methodology
 
 ### Project Timeline
