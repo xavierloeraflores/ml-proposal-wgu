@@ -55,11 +55,21 @@ The scope does not include the following:
 
 The goal of this project is to develop a machine learning solution that can detect explicit content in images uploaded the company's platform. It should be able to achieve the following objectives:
 
-1. Accurately categorize images as NSFW or SFW
-2. Process at least 100,000,000 images per day
-3. Cost less than $1.5M per month to operate
-4. Not negatively impact the user experience for uploading images
+1. Accurately categorize images as NSFW or SFW:
 
+The machine learning solution needs to be able to accurately categorize images as NSFW or SFW with at a degree of accuracy that is beneficial and acceptable to the company's moderation team. If the model is not at least 95% accurate, it will not be useful to the moderation team, will not be implemented, and may even be a hinderance to the operations of the company's social media platform.
+
+2. Process at least 100,000,000 images per day:
+
+The machine learning solution needs to be able to process at least 100,000,000 images per day to be able to keep up with the throughput of images that are uploaded to the company's platform. If the model cannot keep up with the throughput of images, it will be able to be implemented into the platform nor keep up with any future growth in the platform.
+
+3. Cost less than $1.5M per month to operate:
+
+The machine learning solution needs to cost less than $1.5M per month to operate to be able to be implemented and maintained by the company. If the model costs more than $1.5M per month to operate, it may not be approved the the company leaders as the solution does not help drive net revenue for the company.
+
+4. Not negatively impact the user experience for uploading images:
+
+The machine learning solution should not negatively impact the user experience for uploading images. If the model negatively impacts the user experience, it will not be implemented into the platform as it will drive users away from the platform.
 
 ### Standard Methodology
 
