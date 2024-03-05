@@ -231,6 +231,8 @@ It is important that when handling the data that we are transparent with the com
 
 ## References
 
+(0) Redmon Joesph, et al. "You Only Look Once: Unified, Real-Time Object Detection" University of Washington https://arxiv.org/pdf/1506.02640.pdf Accessed Feb 16,2024.
+
 (1) Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation" University of California Berkeley https://arxiv.org/pdf/1311.2524v5.pdf Accessed Feb 16,2024.
 
 (2) Ap-apid, Rigan "An Algorithm for Nudity Detection" College of Computer Studies De La Salle University https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6d52a6fc245a22b35cb6373ff9ce29a033b57a5b Accessed Feb 16,2024.
