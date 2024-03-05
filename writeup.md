@@ -20,6 +20,7 @@ A social media company needs a machine learning solution to automatically detect
 The company has seen a significant increase in the number of images with explicit content being uploaded to their platform. While the platform allows users to manually mark their posts as NSFW or explicit, many users are not doing so, and the company receives numerous complaints from users who do not wish to see explicit content. This will allow the moderation team to focus on images with explicit content and remove them from the platform. It would also allow the company to blur or hide explicit images from users who do not wish to see them.
 
 ### Outside Works
+
 The following works were used to help guide the proposal and provide context to the project.
 
 #### Work 1
@@ -35,9 +36,11 @@ The following works were used to help guide the proposal and provide context to 
 ## Machine Learning Project Design
 
 ### Scope
-The scope of this project is to develop a machine learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform. 
+
+The scope of this project is to develop a machine learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform.
 
 The scope includes the following:
+
 - Collecting and preparing the data
 - Training the machine learning model
 - Integrating the model with the platform
@@ -46,11 +49,13 @@ The scope includes the following:
 - Monitoring the model
 
 The scope does not include the following:
+
 - Developing a new interface for the moderation team
 - Retraining the model with new data
 - Detecting and categorizing the types of explicit content such as nudity, violence, or hate speech
 - Detecting explicit content in videos
 - Detecting explicit content in text on the images
+
 ### Goals, Objectives Deliverables
 
 The goal of this project is to develop a machine learning solution that can detect explicit content in images uploaded the company's platform. It should be able to achieve the following objectives:
@@ -74,38 +79,43 @@ The machine learning solution should not negatively impact the user experience f
 ### Standard Methodology
 
 ### Project Timeline
+
 A rough estimate of the project timeline is as follows:
 
 Sprint Timeline Overview:
 |Sprint| Dates | Task |
 |------|-------|------|
-| 1    | 04/01/2024 - 04/08/2024 | Project Planning |
-| 2    | 04/08/2024 - 04/22/2024 | Data Collection |
-| 3    | 04/22/2024 - 05/06/2024 | Data Preparation |
-| 4    | 05/06/2024 - 05/27/2024 | Model Training |
-| 5    | 05/27/2024 - 06/10/2024 | Integration & Testing |
-| 6    | 06/10/2024 - 06/17/2024 | Evaluation |
-| 7    | 06/17/2024 - 07/01/2024 | Model Deployment |
+| 1 | 04/01/2024 - 04/08/2024 | Project Planning |
+| 2 | 04/08/2024 - 04/22/2024 | Data Collection |
+| 3 | 04/22/2024 - 05/06/2024 | Data Preparation |
+| 4 | 05/06/2024 - 05/27/2024 | Model Training |
+| 5 | 05/27/2024 - 06/10/2024 | Integration & Testing |
+| 6 | 06/10/2024 - 06/17/2024 | Evaluation |
+| 7 | 06/17/2024 - 07/01/2024 | Model Deployment |
 
 Sprint 1: Project Planning ( 1 Week )
+
 - Define the project scope and goals
 - Define the project timeline
 - Define the project budget
 - Define the project team
 
 Sprint 2: Data Collection ( 2 Weeks )
+
 - Identify the data sources
 - Write the data collection method
 - Collect the data
 - Store the data
 
 Sprint 3: Data Preparation ( 2 Weeks )
+
 - Clean the data
 - Format the data
 - Mitigate data anomalies
 - Validate the data
 
 Sprint 4: Model Training ( 3 Weeks )
+
 - Set up the machine learning environment
 - Train the machine learning model
 - Debug the model
@@ -113,6 +123,7 @@ Sprint 4: Model Training ( 3 Weeks )
 - Validate the model
 
 Sprint 5: Integration & Testing ( 2 Weeks )
+
 - Integrate the model with the platform
 - Write tests for the model
 - Test the model
@@ -120,12 +131,14 @@ Sprint 5: Integration & Testing ( 2 Weeks )
 - Create a maintenance plan
 
 Sprint 6: Evaluation ( 1 Week )
+
 - Deploy the model to a small subset of users
 - Monitor the model
 - Collect feedback
 - Evaluate the model
 
 Sprint 7: Model Deployment ( 2 Weeks )
+
 - Deploy the model to the entire platform
 - Monitor the model
 - Collect feedback
@@ -153,12 +166,12 @@ Assuming:
 
 ### Success Criteria
 
-| Objective | Success Criteria |
-|-----------|------------------|
-| Model Accuracy | The machine learning solution should accurately categorize images as NSFW or SFW with at least 95% accuracy. |
-| Model Performance | The machine learning solution should be able to process at least 100,000,000 images per day. |
-| Model Cost | The machine learning solution should cost less than $1.5M per month to operate. |
-| User Experience | The machine learning solution should not negatively impact the user experience for uploading images within a 5% margin of error feedback score.  |
+| Objective         | Success Criteria                                                                                                                                |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Model Accuracy    | The machine learning solution should accurately categorize images as NSFW or SFW with at least 95% accuracy.                                    |
+| Model Performance | The machine learning solution should be able to process at least 100,000,000 images per day.                                                    |
+| Model Cost        | The machine learning solution should cost less than $1.5M per month to operate.                                                                 |
+| User Experience   | The machine learning solution should not negatively impact the user experience for uploading images within a 5% margin of error feedback score. |
 
 ## Machine Learning Solution Design
 
