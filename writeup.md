@@ -233,7 +233,7 @@ It is important that when handling the data that we are transparent with the com
 
 (1) .
 
-(2) .
+(2) Ap-apid, Rigan "An Algorithm for Nudity Detection" College of Computer Studies De La Salle University https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6d52a6fc245a22b35cb6373ff9ce29a033b57a5b Accessed Feb 16,2024.
 
 (3) Hotz, Nick "What is CRISP DM?" Data Science Process Alliance https://www.datascience-pm.com/crisp-dm-2/ Accessed Mar 05,2024.
 
