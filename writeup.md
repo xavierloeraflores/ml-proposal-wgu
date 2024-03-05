@@ -219,8 +219,8 @@ It is important that when handling the data that we are transparent with the com
 
 (2) .
 
-(3) .
+(3) Hotz, Nick "What is CRISP DM?" Data Science Process Alliance https://www.datascience-pm.com/crisp-dm-2/ Accessed Mar 05,2024.
 
-(4) Microsoft. "Microsoft Azure Pricing" Azure.Microsoft.com https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 16,2024.
+(4) Microsoft. "Microsoft Azure Pricing" Microsoft Azure https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 16,2024.
 
 (5) Bernard Marr & Co. "How Much Data Do We Create Every Day? The Mind-Blowing Stats Everyone Should Read" BernardMarr.com https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ Accessed Feb 16,2024.
