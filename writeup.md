@@ -78,6 +78,22 @@ The machine learning solution should not negatively impact the user experience f
 
 ### Standard Methodology
 
+Cross-Industry Standard Process for Data Mining, also known as (CRISP-DM), will be used as the standard methodology for the project since it is a widely used and accepted methodology for machine learning projects and provides a structured approach for proceeding with the project.
+
+CRIPS-DM is a 6-phase process that includes the following phases with a description of how they will be used in the project:
+
+Business understanding: It is important to understand the specific needs of the company and the user's needs for the machine learning solution in relation to the company's platform. This will help guide the project and ensure that the machine learning solution meets the needs of the company and the users.
+
+Data understanding: We will need to have a deep understanding of the types of images that will be used to train the machine learning model. It is best to use images that are representative of the images that are uploaded to the company's platform to ensure that the model is able to accurately categorize the images that are uploaded to the platform.
+
+Data preparation: The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The images will be cleaned to removed any irrelevant, spam, duplicate, or mis-categorized images.
+
+Modeling: The machine learning model will be trained and optimized to accurately categorize images as NSFW or SFW. The model will be trained to accept user generated content by being trained on user generated content.
+
+Evaluation: The machine learning solution will be evaluated to ensure that it meets the goals and objectives of the project. The model will be deployed to a small subset of users to monitor the model and collect feedback which is needed to evaluate the model since our goal is to not negatively impact the user experience for uploading images.
+
+Deployment: The machine learning solution will be deployed to the entire platform and monitored to ensure that it continues to meet the goals and objectives of the project.
+
 ### Project Timeline
 
 A rough estimate of the project timeline is as follows:
