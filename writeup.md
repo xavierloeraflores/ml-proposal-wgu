@@ -231,6 +231,8 @@ The following tools and environments will be used to develop the machine learnin
 
 ### Performance Measuring Process
 
+The machine learning solution needs to be measure in regards to speed, accuracy, and cost. Using a simulated scaled environment, the machine learning solution will be tested to ensure that it meets the goals and objectives of the project before it is deployed and scaled to the entire platform. It needs to be handle a throughput of at least 100,000,000 images per day, cost less than $1.5M per month to operate, maintain an accuracy of at least 95% and not negatively impact the user experience for uploading images. While accuracy, speed, and cost can be tested in a simulated environment, the user experience will need to be tested with a small subset of users before the model is deployed to the entire platform.
+
 ## Description of Data Sets
 
 ### Data Sources
