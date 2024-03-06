@@ -47,7 +47,7 @@ While a solution such as the Nudity Detection algorithm by Rigan Ap-apid (3) cou
 
 ### Benefits of Proposed Machine Learning Solution
 
-The YOLO algorithm paper showcases benchmarks that are in favor of the YOLO algorithm in comparison to a R-CNN algorithm.
+The YOLO algorithm paper showcases benchmarks that are in favor of the YOLO algorithm in comparison to a R-CNN algorithm. The paper highlights that since the YOLO algorithm looks at the entirety of an image all at once rather than looking at regions or a sliding window, the YOLO algorithm makes less than half the amount of background errors compared to the Fast R-CNN algorithm. As stated before, the YOLO algorithm can process in real time at up to 45 frames a second and at 155 fps on a faster version of the network which means YOLO is capable of real time processing while R-CNN is not.
 
 ## Machine Learning Project Design
 
