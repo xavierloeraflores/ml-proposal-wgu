@@ -209,6 +209,8 @@ Assuming:
 
 ### Proposed Project Hypothesis
 
+The company needs a machine learning solution that can automatically detect explicit content in images uploaded to the company's social media platform. The company can utilize a machine learning solution that implements the YOLO algorithm, a fast object detection algorithm, to automatically detect whether images contain explicit material. The machine learning solution will allow the company to automatically flag images as NSFW or SFW for moderation and content filtering purposes with great accuracy, throughput, and cost efficiency without negatively impacting the user experience for uploading images.
+
 ### Machine Learning Algorithms
 
 #### Algorithm Advantage
