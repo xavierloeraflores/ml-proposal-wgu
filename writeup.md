@@ -25,11 +25,11 @@ The following works were used to help guide the proposal and provide context to 
 
 #### Work 1
 
-"You Only Look Once: Unified, Real-Time Object Detection" by Redmon Joesph, et al. (1):
+"You Only Look Once: Unified, Real-Time Object Detection" by Joesph Redmon, et al. (1):
 
 This paper was used to understand the YOLO algorithm and how it can be used to detect objects in images. The YOLO algorithm is a popular algorithm for object detection and can be used to detect explicit content in images. The paper highlights that the YOLO algorithm is capable of processing images in real-time at a 45 frames per second. It features a smaller version of the network called Fast YOLO that processes images at a rate of 155 frames per second.
 #### Work 2
-"Rich feature hierarchies for accurate object detection and semantic segmentation" by Girshick, Ross, et al. (2):
+"Rich feature hierarchies for accurate object detection and semantic segmentation" by Ross Girshick, et al. (2):
 
 This paper as presented by UC Berkeley, highlights the R-CNN algorithm and its utility when it comes to object detection in images. The authors describe R-CNN as regions with CNN features since the method comines region proposals with convolutional neural networks to detect objects in images. The paper also compares the R-CNN algorithm to another algorithm called OverFeat which also uses a CNN architecture but utilizes a sliding window approach to detect objects in images. The authors highlight how R-CNN outperforms OverFeat (31.4% vs 24.3% respectively) in terms of of mean average precision (mAP) meaning its able to detect objects in images with a higher degree of accuracy.
 
