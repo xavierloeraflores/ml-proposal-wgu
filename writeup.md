@@ -26,6 +26,7 @@ The following works were used to help guide the proposal and provide context to 
 #### Work 1
 
 "You Only Look Once: Unified, Real-Time Object Detection" by Redmon Joesph, et al. (1):
+
 This paper was used to understand the YOLO algorithm and how it can be used to detect objects in images. The YOLO algorithm is a popular algorithm for object detection and can be used to detect explicit content in images. The paper highlights that the YOLO algorithm is capable of processing images in real-time at a 45 frames per second. It features a smaller version of the network called Fast YOLO that processes images at a rate of 155 frames per second.
 #### Work 2
 
