@@ -213,6 +213,8 @@ The company needs a machine learning solution that can automatically detect expl
 
 ### Machine Learning Algorithms
 
+The chosen machine learning approach will be to use supervised learning with the You Only Look Once or YOLO algorithm. The YOLO algorithm provides a good balance or speed and accuracy for while being robust enough to not only handle detecting nudity but to also detect other types of explicit material as well regardless if they are in the background or in the foreground. We will be using supervised learning because we already have a labeled and categorized dataset of images to train the machine learning model on.
+
 #### Algorithm Advantage
 
 #### Algorithm Limitation
