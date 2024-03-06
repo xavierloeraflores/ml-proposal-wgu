@@ -221,6 +221,14 @@ The chosen machine learning approach will be to use supervised learning with the
 
 ### Tools and Environments
 
+The following tools and environments will be used to develop the machine learning solution:
+
+- Python: The machine learning model will be developed using Python since it has the most support for machine learning libraries and frameworks.
+- TensorFlow: TensorFlow will be used to develop the machine learning model since it is a widely used and supported machine learning framework.
+- Linux: The machine learning model will be deployed on a Linux server since it is a widely used and supported operating system for machine learning models.
+- Microsoft Azure server: Microsoft Azure will be used to host the machine learning model since the company already hosts their platform on Microsoft Azure and it is a widely used and supported cloud platform for machine learning models.
+- Microsoft Azure Storage: Microsoft Azure Storage will be used to store the image data that will be used to train the machine learning model.
+
 ### Performance Measuring Process
 
 ## Description of Data Sets
