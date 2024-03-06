@@ -28,19 +28,26 @@ The following works were used to help guide the proposal and provide context to 
 "You Only Look Once: Unified, Real-Time Object Detection" by Joesph Redmon, et al. (1):
 
 This paper was used to understand the YOLO algorithm and how it can be used to detect objects in images. The YOLO algorithm is a popular algorithm for object detection and can be used to detect explicit content in images. The paper highlights that the YOLO algorithm is capable of processing images in real-time at a 45 frames per second. It features a smaller version of the network called Fast YOLO that processes images at a rate of 155 frames per second.
+
 #### Work 2
+
 "Rich feature hierarchies for accurate object detection and semantic segmentation" by Ross Girshick, et al. (2):
 
 This paper as presented by UC Berkeley, highlights the R-CNN algorithm and its utility when it comes to object detection in images. The authors describe R-CNN as regions with CNN features since the method comines region proposals with convolutional neural networks to detect objects in images. The paper also compares the R-CNN algorithm to another algorithm called OverFeat which also uses a CNN architecture but utilizes a sliding window approach to detect objects in images. The authors highlight how R-CNN outperforms OverFeat (31.4% vs 24.3% respectively) in terms of of mean average precision (mAP) meaning its able to detect objects in images with a higher degree of accuracy.
 
 #### Work 3
+
 "An Algorithm for Nudity Detection" by Rigan Ap-apid (3):
 
-This paper was used to understand the process of detecting nudity in images. It highlights the use the of detecting skin in images across different color formats. Using correlation and linear regression, a skin color distribution model is created to identify skin regions in images. The regions are then analyzed for clues that indicate nudity such as the presence of a face, body, or other body parts. 
+This paper was used to understand the process of detecting nudity in images. It highlights the use the of detecting skin in images across different color formats. Using correlation and linear regression, a skin color distribution model is created to identify skin regions in images. The regions are then analyzed for clues that indicate nudity such as the presence of a face, body, or other body parts.
 
 ### Machine Learning Solution
 
+While a solution such as the Nudity Detection algorithm by Rigan Ap-apid (3) could be used to detect nudity in images, the company needs a solution that can detect all types of explicit content such as violence, hate speech, and other types of explicit content. A nudity detection approach is too specialized for the purposes of our machine learning solution since we not only need to detect nudity, but also violence and other explicit material which does not fall under the category of nudity. The company also needs a solution that can process at least 100,000,000 images per day and cost less than $1.5M per month to operate. The company also needs a solution that does not negatively impact the user experience for uploading images. Therefore, the company will be using a machine learning solution more in generalized object detection such as the R-CNN or the YOLO algorithm. The following section highlights the benefits of using the our choses solution, the YOLO algorithm over the R-CNN algorithm.
+
 ### Benefits of Proposed Machine Learning Solution
+
+The YOLO algorithm paper showcases benchmarks that are in favor of the YOLO algorithm in comparison to a R-CNN algorithm.
 
 ## Machine Learning Project Design
 
