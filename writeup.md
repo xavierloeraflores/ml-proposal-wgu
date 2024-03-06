@@ -231,14 +231,14 @@ It is important that when handling the data that we are transparent with the com
 
 ## References
 
-(0) Redmon Joesph, et al. "You Only Look Once: Unified, Real-Time Object Detection" University of Washington https://arxiv.org/pdf/1506.02640.pdf Accessed Feb 16,2024.
+(1) Redmon Joesph, et al. "You Only Look Once: Unified, Real-Time Object Detection" University of Washington https://arxiv.org/pdf/1506.02640.pdf Accessed Feb 16,2024.
 
-(1) Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation" University of California Berkeley https://arxiv.org/pdf/1311.2524v5.pdf Accessed Feb 16,2024.
+(2) Girshick, Ross, et al. "Rich feature hierarchies for accurate object detection and semantic segmentation" University of California Berkeley https://arxiv.org/pdf/1311.2524v5.pdf Accessed Feb 16,2024.
 
-(2) Ap-apid, Rigan "An Algorithm for Nudity Detection" College of Computer Studies De La Salle University https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6d52a6fc245a22b35cb6373ff9ce29a033b57a5b Accessed Feb 16,2024.
+(3) Ap-apid, Rigan "An Algorithm for Nudity Detection" College of Computer Studies De La Salle University https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=6d52a6fc245a22b35cb6373ff9ce29a033b57a5b Accessed Feb 16,2024.
 
-(3) Hotz, Nick "What is CRISP DM?" Data Science Process Alliance https://www.datascience-pm.com/crisp-dm-2/ Accessed Feb 20,2024.
+(4) Hotz, Nick "What is CRISP DM?" Data Science Process Alliance https://www.datascience-pm.com/crisp-dm-2/ Accessed Feb 20,2024.
 
-(4) Microsoft. "Microsoft Azure Pricing" Microsoft Azure https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 24,2024.
+(5) Microsoft. "Microsoft Azure Pricing" Microsoft Azure https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 24,2024.
 
-(5) Bernard Marr & Co. "How Much Data Do We Create Every Day? The Mind-Blowing Stats Everyone Should Read" BernardMarr.com https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ Accessed Feb 24,2024.
+(6) Bernard Marr & Co. "How Much Data Do We Create Every Day? The Mind-Blowing Stats Everyone Should Read" BernardMarr.com https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ Accessed Feb 24,2024.
