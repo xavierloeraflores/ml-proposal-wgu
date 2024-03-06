@@ -217,7 +217,11 @@ The chosen machine learning approach will be to use supervised learning with the
 
 #### Algorithm Advantage
 
+The YOLO algorithm main advantage for our context is its speed and capability of processing images in real time. With only about 25 milliseconds of latency, our users will be able to upload images without having to wait long for the algorithm to process the image. The YOLO algorithm is also better at detecting images in the background resulting in a less than half the error rate of R-CNN.
+
 #### Algorithm Limitation
+
+While the YOLO algorithm is a very capable algorithm when it comes to speed and objects in the background, it still falls short of the Fast R-CNN algorithm's accuracy with objects in the foreground with a mAP of 63.4 vs the Fast R-CNN mAP of 71.8. The YOLO algorithm should also in a nudity detection context fall short of a specialized nudity detection algorithm such as the one presented by Rigan Ap-apid (3) since the YOLO algorithm is not specialized for nudity detection.
 
 ### Tools and Environments
 
