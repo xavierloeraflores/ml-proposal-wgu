@@ -34,6 +34,9 @@ This paper was used to understand the YOLO algorithm and how it can be used to d
 This paper as presented by UC Berkeley, highlights the R-CNN algorithm and its utility when it comes to object detection in images. The authors describe R-CNN as regions with CNN features since the method comines region proposals with convolutional neural networks to detect objects in images. The paper also compares the R-CNN algorithm to another algorithm called OverFeat which also uses a CNN architecture but utilizes a sliding window approach to detect objects in images. The authors highlight how R-CNN outperforms OverFeat (31.4% vs 24.3% respectively) in terms of of mean average precision (mAP) meaning its able to detect objects in images with a higher degree of accuracy.
 
 #### Work 3
+"An Algorithm for Nudity Detection" by Rigan Ap-apid (3):
+
+This paper was used to understand the process of detecting nudity in images. It highlights the use the of detecting skin in images across different color formats. Using correlation and linear regression, a skin color distribution model is created to identify skin regions in images. The regions are then analyzed for clues that indicate nudity such as the presence of a face, body, or other body parts. 
 
 ### Machine Learning Solution
 
