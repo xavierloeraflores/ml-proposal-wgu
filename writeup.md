@@ -228,7 +228,7 @@ The machine learning solution needs to be measured in regard to speed, accuracy,
 
 ### Data Sources
 
-Data will be sourced from all the public images uploaded to the company's social media platform by users. The company terms of service allow for the use of images uploaded to the platform for improving features on the platform. These images can be found on the company's database and can be accessed through the company's API or either through a direct connection to the database.
+Data will be sourced from all the public images uploaded to the company's social media platform by users. The company's terms of service allow for the use of images uploaded to the platform for improving features on the platform. These images can be found on the company's database and can be accessed through the company's API or either through a direct connection to the database.
 
 ### Data Collection Method
 
@@ -236,19 +236,19 @@ Once we have access to the collection of image data via either the company's API
 
 #### Method Advantage
 
-By utilizing the database of images from the company's platform, we ensure that the data that will train the machine learning model is representative of the data that the model will be used on. The model will be trained to accept user generated content by being trained on user generated content. This will allow the model to tackle edge cases that can be found in user generated content since the model will be trained on years worth of data from the company's platform.
+By utilizing the database of images from the company's platform, we ensure that the data that will train the machine learning model is representative of the data that the model will be used on. The model will be trained to accept user-generated content by being trained on user-generated content. This will allow the model to tackle edge cases that can be found in user-generated content since the model will be trained on years worth of data from the company's platform.
 
 #### Method Limitation
 
-The limitation with this method is that the model will be trained on data that has already been flagged by the company as explicit. User generated content can be unpredictable and new types of explicit content can be uploaded that the platform will not recognize such as AI generated images, deep fakes, and hand drawn explicit images. The model will be able to detect previous trends in explicit content but may not be able to detect new types or even subtle instances of explicit content.
+The limitation of this method is that the model will be trained on data that has already been flagged by the company as explicit. User-generated content can be unpredictable and new types of explicit content can be uploaded that the platform will not recognize such as AI-generated images, deep fakes, and hand-drawn explicit images. The model will be able to detect previous trends in explicit content but may not be able to detect new types or even subtle instances of explicit content.
 
 ### Data Preparation
 
-The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The data will be cleaned to removed any irrelevant, spam, duplicate, or mis-categorized images. All the images will be formatted to the standard canvas and file size that images are stored and views on the platform. Using these goals in mind, checks and validation will be ran on the data to mitigate data anomalies and ensure that the data is consistent and ready for training.
+The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The data will be cleaned to remove any irrelevant, spam, duplicate, or miscategorized images. All the images will be formatted to the standard canvas and file size so that images are stored and viewed on the platform. Using these goals in mind, checks and validation will be run on the data to mitigate data anomalies and ensure that the data is consistent and ready for training.
 
 ### Behaviors for Handling & Communicating Data
 
-It is important that when handling the data that we are transparent with the company and the users about the use of their data. This needs to be done with respect for the users because some users may not want their images to be used for training machine learning models. Once the model is implemented, the images should be user anonymized and the model should not store any images that are being processed in the future. This is because the model will be used on images that are uploaded to the platform which some users may eventually want to delete. We may eventually revisit and retrain the model with new data later on to improve the model's accuracy and performance.
+It is important that when handling the data we are transparent with the company and the users about the use of their data. This needs to be done with respect for the users because some users may not want their images to be used for training machine learning models. Once the model is implemented, the images should be user anonymized and the model should not store any images that are being processed in the future. This is because the model will be used on images that are uploaded to the platform which some users may eventually want to delete. We may eventually revisit and retrain the model with new data later on to improve the model's accuracy and performance.
 
 ## References
 
