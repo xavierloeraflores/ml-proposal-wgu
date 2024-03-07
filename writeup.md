@@ -47,19 +47,15 @@ The YOLO algorithm paper showcases benchmarks that are in favor of the YOLO algo
 
 ### Scope
 
-The scope of this project is to develop a machine learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform.
-
+The scope of this project is to develop a machine-learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform.
 The scope includes the following:
-
 - Collecting and preparing the data
 - Training the machine learning model
 - Integrating the model with the platform
 - Testing the model
 - Deploying the model
 - Monitoring the model
-
 The scope does not include the following:
-
 - Developing a new interface for the moderation team
 - Retraining the model with new data
 - Detecting and categorizing the types of explicit content such as nudity, violence, or hate speech
@@ -68,41 +64,38 @@ The scope does not include the following:
 
 ### Goals, Objectives Deliverables
 
-The goal of this project is to develop a machine learning solution that can detect explicit content in images uploaded the company's platform. It should be able to achieve the following objectives:
+The goal of this project is to develop a machine-learning solution that can detect explicit content in images uploaded to the company's platform. It should be able to achieve the following objectives:
 
-1. Accurately categorize images as NSFW or SFW:
+Accurately categorize images as NSFW or SFW:
 
-The machine learning solution needs to be able to accurately categorize images as NSFW or SFW with at a degree of accuracy that is beneficial and acceptable to the company's moderation team. If the model is not at least 95% accurate, it will not be useful to the moderation team, will not be implemented, and may even be a hinderance to the operations of the company's social media platform.
+The machine learning solution needs to be able to accurately categorize images as NSFW or SFW with at a degree of accuracy that is beneficial and acceptable to the company's moderation team. If the model is not at least 95% accurate, it will not be useful to the moderation team, will not be implemented, and may even be a hindrance to the operations of the company's social media platform.
 
-2. Process at least 100,000,000 images per day:
+Process at least 100,000,000 images per day:
 
-The machine learning solution needs to be able to process at least 100,000,000 images per day to be able to keep up with the throughput of images that are uploaded to the company's platform. If the model cannot keep up with the throughput of images, it will be able to be implemented into the platform nor keep up with any future growth in the platform.
-
-3. Cost less than $1.5M per month to operate:
-
+The machine learning solution needs to be able to process at least 100,000,000 images per day to be able to keep up with the throughput of images that are uploaded to the company's platform. If the model cannot keep up with the throughput of images, it will not be able to be implemented into the platform nor keep up with any future growth in the platform.
+Cost less than $1.5M per month to operate:
 The machine learning solution needs to cost less than $1.5M per month to operate to be able to be implemented and maintained by the company. If the model costs more than $1.5M per month to operate, it may not be approved the the company leaders as the solution does not help drive net revenue for the company.
 
-4. Not negatively impact the user experience for uploading images:
+Not negatively impact the user experience for uploading images:
 
 The machine learning solution should not negatively impact the user experience for uploading images. If the model negatively impacts the user experience, it will not be implemented into the platform as it will drive users away from the platform.
 
 ### Standard Methodology
 
 Cross-Industry Standard Process for Data Mining, also known as (CRISP-DM) (4), will be used as the standard methodology for the project since it is a widely used and accepted methodology for machine learning projects and provides a structured approach for proceeding with the project.
-
 CRIPS-DM is a 6-phase process that includes the following phases with a description of how they will be used in the project:
 
-Business understanding: It is important to understand the specific needs of the company and the user's needs for the machine learning solution in relation to the company's platform. This will help guide the project and ensure that the machine learning solution meets the needs of the company and the users.
+- Business understanding: It is important to understand the specific needs of the company and the user's needs for the machine learning solution in relation to the company's platform. This will help guide the project and ensure that the machine-learning solution meets the needs of the company and its users.
 
-Data understanding: We will need to have a deep understanding of the types of images that will be used to train the machine learning model. It is best to use images that are representative of the images that are uploaded to the company's platform to ensure that the model is able to accurately categorize the images that are uploaded to the platform.
+- Data understanding: We will need to have a deep understanding of the types of images that will be used to train the machine learning model. It is best to use images that are representative of the images that are uploaded to the company's platform to ensure that the model is able to accurately categorize the images that are uploaded to the platform.
 
-Data preparation: The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The images will be cleaned to removed any irrelevant, spam, duplicate, or mis-categorized images.
+- Data preparation: The data will need to be prepared for the training of the machine learning model through cleaning, formatting, and anomaly mitigation. The images will be cleaned to remove any irrelevant, spam, duplicate, or miscategorized images.
 
-Modeling: The machine learning model will be trained and optimized to accurately categorize images as NSFW or SFW. The model will be trained to accept user generated content by being trained on user generated content.
+- Modeling: The machine learning model will be trained and optimized to accurately categorize images as NSFW or SFW. The model will be trained to accept user-generated content by being trained on user-generated content.
 
-Evaluation: The machine learning solution will be evaluated to ensure that it meets the goals and objectives of the project. The model will be deployed to a small subset of users to monitor the model and collect feedback which is needed to evaluate the model since our goal is to not negatively impact the user experience for uploading images.
+- Evaluation: The machine learning solution will be evaluated to ensure that it meets the goals and objectives of the project. The model will be deployed to a small subset of users to monitor the model and collect feedback which is needed to evaluate the model since our goal is to not negatively impact the user experience for uploading images.
 
-Deployment: The machine learning solution will be deployed to the entire platform and monitored to ensure that it continues to meet the goals and objectives of the project.
+- Deployment: The machine learning solution will be deployed to the entire platform and monitored to ensure that it continues to meet the goals and objectives of the project.
 
 ### Project Timeline
 
