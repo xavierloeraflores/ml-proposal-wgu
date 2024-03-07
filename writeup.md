@@ -35,7 +35,7 @@ This paper was used to understand the YOLO algorithm and how it can be used to d
 
 This paper as presented by UC Berkeley, highlights the R-CNN algorithm and its utility when it comes to object detection in images. The authors describe R-CNN as regions with CNN features since the method combines region proposals with convolutional neural networks to detect objects in images. The paper also compares the R-CNN algorithm to another algorithm called OverFeat which also uses a CNN architecture but utilizes a sliding window approach to detect objects in images. The authors highlight how R-CNN outperforms OverFeat (31.4% vs 24.3% respectively) in terms of mean average precision (mAP) meaning it is able to detect objects in images with a higher degree of accuracy.
 
-### Work 3
+#### Work 3
 "An Algorithm for Nudity Detection" by Rigan Ap-apid (3):
 
 This paper was used to understand the process of detecting nudity in images. It highlights the use of detecting skin in images across different color formats. Using correlation and linear regression, a skin color distribution model is created to identify skin regions in images. The regions are then analyzed for clues that indicate nudity such as the presence of a face, body, or other body parts.
@@ -71,13 +71,13 @@ The goal of this project is to develop a machine-learning solution that can dete
 
 Accurately categorize images as NSFW or SFW:
 
-The machine learning solution needs to be able to accurately categorize images as NSFW or SFW with at a degree of accuracy that is beneficial and acceptable to the company's moderation team. If the model is not at least 95% accurate, it will not be useful to the moderation team, will not be implemented, and may even be a hindrance to the operations of the company's social media platform.
+The machine learning solution needs to be able to accurately categorize images as NSFW or SFW with a degree of accuracy that is beneficial and acceptable to the company's moderation team. If the model is not at least 95% accurate, it will not be useful to the moderation team, will not be implemented, and may even be a hindrance to the operations of the company's social media platform.
 
 Process at least 100,000,000 images per day:
 
 The machine learning solution needs to be able to process at least 100,000,000 images per day to be able to keep up with the throughput of images that are uploaded to the company's platform. If the model cannot keep up with the throughput of images, it will not be able to be implemented into the platform nor keep up with any future growth in the platform.
 Cost less than $1.5M per month to operate:
-The machine learning solution needs to cost less than $1.5M per month to operate to be able to be implemented and maintained by the company. If the model costs more than $1.5M per month to operate, it may not be approved the the company leaders as the solution does not help drive net revenue for the company.
+The machine learning solution needs to cost less than $1.5M per month to operate to be able to be implemented and maintained by the company. If the model costs more than $1.5M per month to operate, it may not be approved by the company leaders as the solution does not help drive net revenue for the company.
 
 Not negatively impact the user experience for uploading images:
 
