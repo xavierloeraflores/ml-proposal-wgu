@@ -94,7 +94,7 @@ The machine learning solution should not negatively impact the user experience f
 
 ### Standard Methodology
 
-Cross-Industry Standard Process for Data Mining, also known as (CRISP-DM), will be used as the standard methodology for the project since it is a widely used and accepted methodology for machine learning projects and provides a structured approach for proceeding with the project.
+Cross-Industry Standard Process for Data Mining, also known as (CRISP-DM) (4), will be used as the standard methodology for the project since it is a widely used and accepted methodology for machine learning projects and provides a structured approach for proceeding with the project.
 
 CRIPS-DM is a 6-phase process that includes the following phases with a description of how they will be used in the project:
 
@@ -178,7 +178,7 @@ Sprint 7: Model Deployment ( 2 Weeks )
 
 ### Resources and Costs
 
-Using estimates from [Microsoft Azure Visions Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/) as well as the daily estimates for the number of images uploaded to [Instagram](https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/), we can estimate the cost of the machine learning solution.
+Using estimates from [Microsoft Azure Visions Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/) (5) as well as the daily estimates for the number of images uploaded to [Instagram](https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) (6), we can estimate the cost of the machine learning solution.
 
 Assuming:
 
