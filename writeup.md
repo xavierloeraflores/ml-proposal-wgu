@@ -165,7 +165,7 @@ Sprint 7: Model Deployment ( 2 Weeks )
 
 ### Resources and Costs
 
-Using estimates from [Microsoft Azure Visions Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/) (5) as well as the daily estimates for the number of images uploaded to [Instagram](https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/) (6), we can estimate the cost of the machine-learning solution.
+Using estimates from Microsoft Azure Visions Pricing (5) as well as the daily estimates for the number of images uploaded to Instagram from Bernard Marr (6), we can estimate the cost of the machine-learning solution.
 
 Assuming:
 
