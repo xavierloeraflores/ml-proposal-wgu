@@ -200,11 +200,11 @@ The company needs a machine learning solution that can automatically detect expl
 
 ### Machine Learning Algorithms
 
-The chosen machine learning approach will be to use supervised learning with the You Only Look Once or YOLO algorithm. The YOLO algorithm provides a good balance or speed and accuracy for while being robust enough to not only handle detecting nudity but to also detect other types of explicit material as well regardless if they are in the background or in the foreground. We will be using supervised learning because we already have a labeled and categorized dataset of images to train the machine learning model on.
+The chosen machine learning approach will be to use supervised learning with the You Only Look Once or YOLO algorithm. The YOLO algorithm provides a good balance of speed and accuracy while being robust enough to not only handle detecting nudity but also detect other types of explicit material as well regardless if they are in the background or in the foreground. We will be using supervised learning because we already have a labeled and categorized dataset of images to train the machine learning model on.
 
 #### Algorithm Advantage
 
-The YOLO algorithm main advantage for our context is its speed and capability of processing images in real time. With only about 25 milliseconds of latency, our users will be able to upload images without having to wait long for the algorithm to process the image. The YOLO algorithm is also better at detecting images in the background resulting in a less than half the error rate of R-CNN.
+The YOLO algorithm's main advantage for our context is its speed and capability to process images in real-time. With only about 25 milliseconds of latency, our users will be able to upload images without having to wait long for the algorithm to process the image. The YOLO algorithm is also better at detecting images in the background resulting in less than half the error rate of R-CNN.
 
 #### Algorithm Limitation
 
@@ -212,7 +212,7 @@ While the YOLO algorithm is a very capable algorithm when it comes to speed and 
 
 ### Tools and Environments
 
-The following tools and environments will be used to develop the machine learning solution:
+The following tools and environments will be used to develop the machine-learning solution:
 
 - Python: The machine learning model will be developed using Python since it has the most support for machine learning libraries and frameworks.
 - TensorFlow: TensorFlow will be used to develop the machine learning model since it is a widely used and supported machine learning framework.
@@ -222,7 +222,7 @@ The following tools and environments will be used to develop the machine learnin
 
 ### Performance Measuring Process
 
-The machine learning solution needs to be measure in regards to speed, accuracy, and cost. Using a simulated scaled environment, the machine learning solution will be tested to ensure that it meets the goals and objectives of the project before it is deployed and scaled to the entire platform. It needs to be handle a throughput of at least 100,000,000 images per day, cost less than $1.5M per month to operate, maintain an accuracy of at least 95% and not negatively impact the user experience for uploading images. While accuracy, speed, and cost can be tested in a simulated environment, the user experience will need to be tested with a small subset of users before the model is deployed to the entire platform.
+The machine learning solution needs to be measured in regard to speed, accuracy, and cost. Using a simulated scaled environment, the machine learning solution will be tested to ensure that it meets the goals and objectives of the project before it is deployed and scaled to the entire platform. It needs to handle a throughput of at least 100,000,000 images per day, cost less than $1.5M per month to operate, maintain an accuracy of at least 95%, and not negatively impact the user experience for uploading images. While accuracy, speed, and cost can be tested in a simulated environment, the user experience will need to be tested with a small subset of users before the model is deployed to the entire platform.
 
 ## Description of Data Sets
 
