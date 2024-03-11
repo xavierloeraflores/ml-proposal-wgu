@@ -173,23 +173,44 @@ Sprint 7: Model Deployment ( 2 Weeks )
 
 ### Resources and Costs
 
-Using estimates from Microsoft Azure Visions Pricing (5) as well as the daily estimates for the number of images uploaded to Instagram from Bernard Marr (6), we can estimate the cost of the machine-learning solution.
+The following represents the cost breakdown for resources and labor will be needed for the project. The following two tables are the cost breakdown for the development and ongoing costs of the machine-learning solution. Further breakdown of the labor costs is also provided following the development and ongoing cost breakdown tables. The company's platform is already hosted on a cloud platform and therefore rents hardware from a cloud provider such as Microsoft Azure. Using estimates from Microsoft Azure Visions Pricing (5) as well as the daily estimates for the number of images uploaded to Instagram from Bernard Marr (6), we can estimate the cost of the machine-learning solution. 
 
 Assuming:
 
 - 100,000,000 Daily uploaded images
 - $0.40 Per 1000 Images at a rate of at least 1,000,000 transactions per day
 
+Development Cost Breakdown:
 | Resource                        | Cost                 |
 | ------------------------------- | -------------------- |
 | Engineering Labor               | $100K-150K           |
-| Database Storage                | $10,000              |
-| Data Processing                 | $10,000              |
-| Machine Learning Model Training | $10,000              |
-| Upfront Cost Total              | ~$130K-180K          |
-| Machine Learning Cloud Server   | ~$35K-45K daily      |
-| Maintenance Engineering Labor   | $10K-15K monthly     |
-| On-Going Total                  | ~$1M - 1.35M monthly |
+| Project Management Labor        | $20K-30K            |
+| Database Storage                | $5,000              |
+| Data Processing Compute Usage   | $5,000              |
+| ML Model Training Compute Usage | $20,000              |
+| Upfront Cost Total              | ~$150K-200K          |
+
+Ongoing Cost Breakdown:
+| Resource                        | Cost                 |
+| ------------------------------- | -------------------- |
+| ML Cloud Server Usage           | ~$35K-45K Daily      |
+| Maintenance Engineering Labor   | $10K-15K Monthly     |
+| On-Going Total                  | ~$1M - 1.35M Monthly |
+
+
+The cost for labor is broken down showcases the role title and the salary for the role as well as the real cost of the labor for this project assuming the project takes 3 months of full time work for the development of the project. Maintenance is calculated monthly assuming one full time IT analyst dedicated on the project and 2 IT analyst dedicating only part time hours on this project. All salaries are representing the yearly salary of the role assuming they work full time. All the real costs are calculated assuming the project takes 3 months to complete unless stated otherwise as an ongoing expense. 
+
+Labor Cost Breakdown: 
+| Type | Role | Salary | Real Cost |
+| ---- | ---- | ------ | --------- |
+| Engineering Labor | Machine Learning Engineer | $100K - $150K | $25k - $37.5K |
+| Engineering Labor | Machine Learning Engineer | $100K - $150K | $25k - $37.5K |
+| Engineering Labor | Fullstack Engineer | $100K - $150K | $25k - $37.5K |
+| Engineering Labor | Backend Engineer | $100K - $150K | $25k - $37.5K |
+| Management Labor | Project Manager | $80K - $120K | $20k - $30K |
+| Maintenance Labor | Senior IT Analyst | $84K - $126K | $7K - $10.5K Monthly |
+| Maintenance Labor | IT Analyst | $50K - $75K | $1.5k - $2.25K Monthly |
+| Maintenance Labor | IT Analyst | $50K - $75K | $1.5k - $2.25K |
 
 ### Success Criteria
 
