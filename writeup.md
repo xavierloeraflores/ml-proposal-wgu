@@ -50,7 +50,8 @@ The YOLO algorithm paper showcases benchmarks that are in favor of the YOLO algo
 
 ### Scope
 
-The scope of this project is to develop a machine-learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform.
+The scope of this project is to develop a machine-learning solution that can accurately and automatically detect explicit content in images uploaded to the company's social media platform. While the project will focus on the development of the machine learning model, it will also include integration, testing, deployment, and monitoring but will not include making any other improvements to the platform such as new user or internal features as well as the ability to detect more resource intensive media.
+
 The scope includes the following:
 - Collecting and preparing the data
 - Training the machine learning model
@@ -58,12 +59,16 @@ The scope includes the following:
 - Testing the model
 - Deploying the model
 - Monitoring the model
+
 The scope does not include the following:
-- Developing a new interface for the moderation team
+- Developing a new back-end service for the moderation team
+- Developing a new front-end interface for the moderation team
 - Retraining the model with new data
 - Detecting and categorizing the types of explicit content such as nudity, violence, or hate speech
 - Detecting explicit content in videos
 - Detecting explicit content in text on the images
+- Detecting fake images or deep fakes
+- Detecting explicit content in audio
 
 ### Goals, Objectives Deliverables
 
