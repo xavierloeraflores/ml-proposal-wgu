@@ -36,6 +36,11 @@ This paper was used to understand the YOLO algorithm and how it can be used to d
 This paper as presented by UC Berkeley, highlights the R-CNN algorithm and its utility when it comes to object detection in images. The authors describe R-CNN as regions with CNN features since the method combines region proposals with convolutional neural networks to detect objects in images. The paper also compares the R-CNN algorithm to another algorithm called OverFeat which also uses a CNN architecture but utilizes a sliding window approach to detect objects in images. The authors highlight how R-CNN outperforms OverFeat (31.4% vs 24.3% respectively) in terms of mean average precision (mAP) meaning it is able to detect objects in images with a higher degree of accuracy.
 
 #### Work 3
+"Focal Loss for Dense Object Detection" by Tsung-Yi Lin, et al. (7):
+
+This paper highlights the use of focal loss and demonstrates how it can be used to improve the accuracy of object detection in images. The authors highlight that focal loss is able to improve the accuracy of object detection in images by reducing the loss of well-classified examples. The authors then implement focal loss in the RetinaNet algorithm and demonstrate that it is able to outperform other object detection algorithms such as the Fast R-CNN algorithm. The paper questions whether a one stage object detection algorithm could be as accurate as a two stage detection algorithm popularized by R-CNN. Focal loss was designed to address one stage detector scenarios where there is an extreme imbalance in foreground/background classes. The resulting algorithm, RetinaNet, is a unified one stage object detection algorithm. The paper concludes that class imbalance was the primary obstacle preventing one stage detectors from surpassing the performance of two stage detectors. Since focal loss was able to address this issue and improve the accuracy of one stage detectors, later versions of the YOLO algorithm may have implemented focal loss to improve the performance of the algorithm.  
+
+#### Bonus Work
 "An Algorithm for Nudity Detection" by Rigan Ap-apid (3):
 
 This paper was used to understand the process of detecting nudity in images. It highlights the use of detecting skin in images across different color formats. Using correlation and linear regression, a skin color distribution model is created to identify skin regions in images. The regions are then analyzed for clues that indicate nudity such as the presence of a face, body, or other body parts.
@@ -292,3 +297,5 @@ It is important that when handling the data we are transparent with the company 
 (5) Microsoft. "Microsoft Azure Pricing" Microsoft Azure https://azure.microsoft.com/en-us/pricing/details/cognitive-services/computer-vision/ Accessed Feb 24,2024.
 
 (6) Bernard Marr & Co. "How Much Data Do We Create Every Day? The Mind-Blowing Stats Everyone Should Read" BernardMarr.com https://bernardmarr.com/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/ Accessed Feb 24,2024.
+
+(7) Lin, Tsung-Yi,  et al. "Focal Loss for Dense Object Detection" Facebook AI Research https://arxiv.org/pdf/1708.02002.pdf Accessed Mar 11, 2024.
